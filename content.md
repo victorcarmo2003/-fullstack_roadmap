@@ -1,12 +1,4 @@
 # 🚀 Bootcamp Completo de Desenvolvimento Web: Do Zero ao Next.js
-
-<div align="center">
-  ![Progresso](https://progress-bar.dev/70/?title=Progresso&width=600)
-  
-  [![Abrir no GitHub](https://img.shields.io/badge/⭐-Estrela%20no%20GitHub-black?style=for-the-badge&logo=github)](https://github.com/seu-usuario/bootcamp-fullstack)
-  [![Licença](https://img.shields.io/badge/Licença-MIT-blue.svg?style=for-the-badge)](LICENSE)
-</div>
-
 ## 📚 Sumário
 
 ### 🏁 Começando
@@ -41,17 +33,6 @@
 - [🎓 Canais de Aprendizado](#-canais-de-aprendizado)
 - [📚 Bibliografia](#-bibliografia)
 
-### 🔄 Navegação Rápida
-| Seção Anterior | Próxima Seção |
-|----------------|---------------|
-| [⬅️ Módulo Anterior](#) | [Próximo Módulo ➡️](#) |
-
-<div align="center">
-  <a href="#módulo-1-fundamentos-da-web">
-    <img src="https://img.icons8.com/3d-fluency/50/000000/down-squared.png" alt="Iniciar Curso" width="40" height="40"/>
-    <p>Iniciar Curso</p>
-  </a>
-</div>
 
 ## 🎯 Objetivos de Aprendizado
 
@@ -4311,19 +4292,6 @@ Continue sua jornada no desenvolvimento full-stack com Next.js e construa aplica
 
 [⬆️ Voltar para o topo](#-bootcamp-completo-de-desenvolvimento-web-do-zero-ao-nextjs) |
 [📋 Ver Sumário](#-sumário) |
-[📚 Próximo Módulo](#-módulo-2-frontend-essencial)
-
----
-
-<div align="center">
-  <p>Feito com ❤️ por [Seu Nome]</p>
-  <p>
-    <a href="https://github.com/seu-usuario" target="_blank">GitHub</a> • 
-    <a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a> • 
-    <a href="https://twitter.com/seu-usuario" target="_blank">Twitter</a>
-  </p>
-  <p>📅 Última atualização: Outubro de 2023</p>
-</div>
 
 <details>
   <summary>📝 Notas de Atualização</summary>
