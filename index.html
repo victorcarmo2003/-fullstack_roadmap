@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootcamp completo de desenvolvimento web full-stack, do zero ao Next.js">
     <title>Bootcamp Full-Stack | Do Zero ao Next.js</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style-new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -20,12 +24,24 @@
     </header>
 
     <main class="container main-content">
+        <button class="mobile-menu-button" id="mobileMenuButton" aria-expanded="false" aria-controls="toc">
+            <span>Menu do Curso</span>
+            <i class="fas fa-chevron-down icon" aria-hidden="true"></i>
+        </button>
+
         <aside class="sidebar">
-            <div class="toc">
-                <h3>📚 Sumário</h3>
-                <nav id="toc">
-                    <!-- TOC será gerado por JavaScript -->
-                </nav>
+            <div class="toc" id="tocContainer">
+                <div class="toc-header" id="tocHeader">
+                    <h3>📚 Sumário</h3>
+                    <button class="toc-toggle" id="tocToggle" aria-label="Recolher/Expandir sumário">
+                        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="toc-content">
+                    <nav id="toc" aria-label="Navegação do curso">
+                        <!-- TOC será gerado por JavaScript -->
+                    </nav>
+                </div>
             </div>
         </aside>
 
@@ -42,23 +58,23 @@
         <div class="container">
             <p>© 2023 Bootcamp Full-Stack. Todos os direitos reservados.</p>
             <div class="social-links">
-                <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
+                <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="https://linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
+                <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
                 </a>
-                <a href="https://twitter.com/seu-usuario" target="_blank" aria-label="Twitter">
-                    <i class="fab fa-twitter"></i>
+                <a href="https://twitter.com/seu-usuario" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
     </footer>
 
-    <a href="#" class="back-to-top" aria-label="Voltar ao topo">
-        <i class="fas fa-arrow-up"></i>
-    </a>
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
 
-    <script src="js/script.js"></script>
+    <script src="js/script-new.js"></script>
 </body>
 </html>
